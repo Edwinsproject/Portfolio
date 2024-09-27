@@ -1,0 +1,170 @@
+body {
+    margin: 10px;
+    background-color: white;
+}
+
+#home {
+    background-color:rgb(139, 0, 21);
+    color: white;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 1cm;
+    padding-bottom: 3cm;
+   }
+
+   /* Application name inside the home section. The styling is applied by tag name */
+
+  header {
+    font-size: 30px;
+    color: rgb(240, 234, 245);
+    float: left;
+    padding-left: 2cm;
+  }
+
+/* Navigation Bar Container*/
+
+  .topdiv {
+    float: right;
+    padding-right: 1cm;
+  }
+
+  /* Navigation Bar Buttons */
+  .topmenu {
+    color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration:none;
+    border-radius: 1mm;
+  }
+  
+  .topmenu:hover {
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
+
+  /* intro settings*/
+
+  .intro {
+    color: rgb(139, 0, 21);
+    font-size: 60px;
+    padding-left: 40%;
+  }
+
+  .intro2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+
+  /*picture settings*/
+
+  .pic {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  /*div settings*/
+
+  div {
+    color: rgb(139, 0, 21);
+    font-size: 20px;
+  }
+
+  /*skills section*/
+
+  .boxes {
+  color: black;
+  border-top-width: 10px;
+  border-radius: 10px;
+  background-color: lightblue;
+  width: 150px;
+  height: 150px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  }
+
+.boxes1 {
+  position: relative;
+  left: -65px; 
+ }
+
+.boxes2 {
+  position: relative;
+  left: -50px; 
+}
+
+.boxes3 {
+  position: relative;
+  left: 5px; 
+}
+
+.boxes4 {
+  position: relative;
+  left: -25px; 
+  padding-top: 20px;
+}
+  
+.boxalign {
+  display: flex;
+  }
+
+  .iconbutton{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: rgb(139, 0, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+
+    /*recommendation boxes*/
+
+    .rec {
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      color: black;
+      margin: 20px;
+      display: inline-block;
+      margin-left: 1cm;
+      }
+
+      /*centering titles*/
+
+      .skills {
+        text-align: center;
+      }
+
+      .projects {
+        text-align: center;
+      }
+
+      .recs {
+        text-align: center;
+      }
+
+      .form1 {
+        text-align: center;
+      }
+
+      /*rec form*/
+
+      
